@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/cf4160a64e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="././assets/css/style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Appli météo</title>
+  </head>
+  <body>
+    <div class="appli_meteo">
+      <div class="title_appli">Météo</div>
+      <div class="ville">
+        <span id="nom_ville">nom de la ville</span>,
+        <span id="pays">pays ici</span>
+      </div>
+      <div class="icone_temp"><img src="" id="icone" /></div>
+      <div class="temperature">
+        <i class="fa-solid fa-temperature-half"></i>
+        <span id="temperature_ville">xx.x</span> °C
+        <span id="description_temp">description</span>
+        <div class="min_max">
+          <i class="fa-solid fa-arrow-down"></i>
+          <span id="temp_min">température minimum</span>
+          <i class="fa-solid fa-arrow-up"></i>
+          <span id="temp_max">température maximum</span>
+        </div>
+      </div>
+
+      <form>
+        <div class="form_recherche">
+          <input type="text" name="ville" id="recherche_ville" />
+          <button type="submit" id="rechercher">Changer de ville</button>
+        </div>
+      </form>
+    </div>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
