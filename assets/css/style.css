@@ -1,0 +1,62 @@
+body{
+    background-color:#202632;
+    box-sizing: border-box;
+  }
+  .appli_meteo{
+    width:40%;
+    height:270px;
+    margin:auto;
+    background-color:#313A49;
+    border-radius:5px;
+    padding:40px;
+    text-align:center;
+    font-family:"poppins", sans-serif;
+    color:#B5C8CF;
+    margin:auto;
+  }
+  
+  .title_appli{
+    font-weight:700;
+    font-size:1em;
+    letter-spacing:3px;
+    color:#53FFA9;
+    text-transform:uppercase;
+    margin-bottom:10px;
+  }
+  
+  .ville {
+    margin-bottom:5px;
+  }
+  
+  form{
+    margin-top:10px;
+  }
+  
+  .form_recherche {
+    margin:auto;
+    width: 80%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  input#recherche_ville {
+    padding-left: 3px;
+}
+  
+  #recherche_ville, #rechercher{
+    border:none;
+    border-radius:5px;
+    font-family: 'Poppins';
+    width: 95%;
+    padding: 10px 0;
+    margin-bottom:10px;
+  }
+  
+  #rechercher{
+    background-color:#53FFA9;
+    color: #313a49;
+    font-weight:700;
+    letter-spacing:1px;
+    cursor:pointer;
+  }
